@@ -1,0 +1,20 @@
+.not-found{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+    font-size: 1.3rem;
+    color: #333;
+}
+
+a{
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}

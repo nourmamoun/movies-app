@@ -4,7 +4,6 @@ import { TitleCasePipe } from '@angular/common';
 
 @Component({
   selector: 'app-people-item',
-  imports: [TitleCasePipe],
   templateUrl: './people-item.component.html',
   styleUrl: './people-item.component.css'
 })
