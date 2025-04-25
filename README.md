@@ -11,8 +11,7 @@ An Angular-based web application that displays a list of movies fetched from a p
 - 📱 Responsive design
 
 ## 🖼️ Screenshot
-
-![Movies App Screenshot](assets/images/screenshot.png)
+![home](https://github.com/user-attachments/assets/de6134f0-8447-4e04-839c-bc3dcc046458)
 
 ## 🧪 Tech Stack
 
