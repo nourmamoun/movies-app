@@ -1,0 +1,9 @@
+<div class="container my-4">
+    <div class="row">
+      @for (all of allCategories; track all.id) {
+        <div class="col-md-3 mb-4">
+          <app-product-item [all]="all"></app-product-item>
+        </div>
+      }
+    </div>
+  </div>

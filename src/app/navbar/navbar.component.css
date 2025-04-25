@@ -1,0 +1,21 @@
+.navbar__logo h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .navbar__menu ul {
+    gap: 10px;
+  }
+  
+  .navbar__menu .nav-link {
+    font-weight: 500;
+  }
+  
+  .navbar__search input {
+    min-width: 200px;
+  }
+  
+  .nav-link.active {
+    border-bottom: 5px solid #007bff; /* Active link underline color */
+    color: white;  /* Active link text color */
+  }

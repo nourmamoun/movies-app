@@ -1,0 +1,9 @@
+<div class="container my-4">
+    <div class="row">
+      @for (tv of tvs; track tv.id) {
+        <div class="col-md-3 mb-4">
+           <app-tv-item [tv]="tv"></app-tv-item>
+        </div>
+      }
+    </div>
+  </div>

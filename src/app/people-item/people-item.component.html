@@ -1,0 +1,27 @@
+<div class="card h-100 bg-dark text-white shadow">
+    <img 
+      [src]="'https://image.tmdb.org/t/p/w500' + person.profile_path"
+      class="card-img-top"
+      alt="{{  person.name }}"
+    />
+  
+    <div class="card-body d-flex flex-column">
+      <h5 class="card-title">{{ person.name }}</h5>
+      <p class="card-text smperson">
+        <span class="text-muted">original name: {{ person.original_name }}</span><br>
+        <span class="text-muted">Gender:</span> {{ person.gender==1? 'Female' : "Male" }}<br>
+      </p>
+  
+      <p class="card-text text-truncate" title="{{ person.known_for_department }}">
+        Known For: {{ person.known_for_department }}
+      </p>
+  
+      <div class="mt-auto">
+        <div class="d-flex justify-content-between align-items-center">
+          <span class="badge bg-primary">popularity: {{ person.popularity }}</span>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
