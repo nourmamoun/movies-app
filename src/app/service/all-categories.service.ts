@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { All } from '../all';
 @Injectable({
   providedIn: 'root'
 })
@@ -28,5 +29,15 @@ export class AllCategoriesService {
   // All Trending People
   getAllPeople(): Observable<any>{
     return this._httpClient.get(`${this.base_url}/person/day?api_key=${this.api_key}`)
+  }
+
+  // movies by id
+  getMovieById(id: number): Observable<All> {
+    return this._httpClient.get<All>(`https://api.themoviedb.org/3/movie/${id}?api_key=${this.api_key}`);
+  }
+  
+  // tv shows by id
+  getTvById(id: number): Observable<All> {
+    return this._httpClient.get<All>(`https://api.themoviedb.org/3/tv/${id}?api_key=${this.api_key}`);
   }
 }

@@ -1,0 +1,14 @@
+<div class="container mt-4" >
+    <div class="row">
+      <div class="col-md-4">
+        <img [src]="'https://image.tmdb.org/t/p/w500' + all?.poster_path" class="img-fluid" alt="" />
+      </div>
+      <div class="col-md-8 text-white">
+        <h2>{{ all?.title || all?.name }}</h2>
+        <p><strong>Release Date:</strong> {{ all?.release_date || all?.first_air_date }}</p>
+        <p><strong>Overview:</strong> {{ all?.overview }}</p>
+        <p><strong>Rating:</strong> {{ all?.vote_average }} / 10 ({{ all?.vote_count }} votes)</p>
+      </div>
+    </div>
+  </div>
+  

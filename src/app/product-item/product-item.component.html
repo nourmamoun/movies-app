@@ -24,6 +24,9 @@
           <small class="text-muted">Votes: {{ all.vote_count }}</small>
         </div>
       </div>
+      <div>
+        <button class="btn btn-primary mt-3 w-100 " [routerLink]="['/details',all.id]" >View Details</button>
+      </div>
     </div>
   </div>
   

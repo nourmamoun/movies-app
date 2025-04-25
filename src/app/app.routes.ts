@@ -4,6 +4,7 @@ import { MoviesComponent } from './movies/movies.component';
 import { TvComponent } from './tv/tv.component';
 import { PeopleComponent } from './people/people.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 export const routes: Routes = [
     {path: '',redirectTo: 'all', pathMatch: 'full'},
@@ -11,7 +12,7 @@ export const routes: Routes = [
     {path: 'movies',component: MoviesComponent},
     {path: 'tv-shows',component: TvComponent},
     {path: 'persons',component:PeopleComponent},
-
+    {path:'details/:id',component:ProductDetailsComponent}, 
 
 
 

@@ -1,18 +1,18 @@
 import { Component, OnInit } from '@angular/core';
-import { Movies } from '../movies';
 import { AllCategoriesService } from '../service/all-categories.service';
-import { MoviesItemComponent } from "../movies-item/movies-item.component";
+import { ProductItemComponent } from "../product-item/product-item.component";
+import { All } from '../all';
 
 
 @Component({
   selector: 'app-movies',
-  imports: [MoviesItemComponent],
+  imports: [ProductItemComponent],
   templateUrl: './movies.component.html',
   styleUrl: './movies.component.css',
 })
 
 export class MoviesComponent implements OnInit {
-movies!:Movies[]
+movies!:All[]
 constructor(private _allCategoriesService:AllCategoriesService){}
 
 ngOnInit(): void {

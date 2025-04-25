@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
-import { Tv } from '../tv';
 import { AllCategoriesService } from '../service/all-categories.service';
-import { TvItemComponent } from "../tv-item/tv-item.component";
+import { ProductItemComponent } from "../product-item/product-item.component";
+import { All } from '../all';
 
 @Component({
   selector: 'app-tv',
-  imports: [TvItemComponent],
+  imports: [ProductItemComponent],
   templateUrl: './tv.component.html',
   styleUrl: './tv.component.css'
 })
 export class TvComponent implements OnInit {
-  tvs!: Tv[]
+  tvs!: All[]
   constructor(private _allCategoriesService:AllCategoriesService){}
 
   ngOnInit(): void {

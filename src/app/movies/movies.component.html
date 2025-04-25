@@ -2,7 +2,7 @@
     <div class="row">
       @for (movie of movies; track movie.id) {
         <div class="col-md-3 mb-4">
-           <app-movies-item [movie]="movie"></app-movies-item>
+           <app-product-item [all]="movie"></app-product-item>
         </div>
       }
     </div>
