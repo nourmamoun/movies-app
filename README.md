@@ -1,15 +1,37 @@
-# MoviesApp
+# 🎬 Fantasy Movies App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.7.
+An Angular-based web application that displays a list of movies fetched from a public API. The app demonstrates the power of Angular features such as components, routing, services, and TypeScript integration.
 
-## Development server
+## 🚀 Features
 
-To start a local development server, run:
+- 🔁 Routing between movie list 
+- 🎥 Fetches movies from a real-time public API  
+- 🛠️ Reusable services for API integration  
+- ✅ Built using TypeScript for type safety  
+- 📱 Responsive design
+
+## 🖼️ Screenshot
+![home](https://github.com/user-attachments/assets/de6134f0-8447-4e04-839c-bc3dcc046458)
+
+## 🧪 Tech Stack
+
+- Angular 15+
+- TypeScript
+- HTML5 & CSS3
+- RxJS
+- Angular Router
+- Movie API (e.g., TMDB)
+
+
+## 🧰 How to Run
 
 ```bash
+git clone https://github.com/your-username/movies-app.git
+cd movies-app
+npm install
 ng serve
-```
 
+-----------------------
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
 ## Code scaffolding
@@ -52,8 +74,10 @@ For end-to-end (e2e) testing, run:
 ng e2e
 ```
 
+
 Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
 ## Additional Resources
-
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
