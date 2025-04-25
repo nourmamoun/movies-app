@@ -1,6 +1,36 @@
-# MoviesApp
+# 🎬 Fantasy Movies App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.7.
+An Angular-based web application that displays a list of movies fetched from a public API. The app demonstrates the power of Angular features such as components, routing, services, and TypeScript integration.
+
+## 🚀 Features
+
+- 🔁 Routing between movie list 
+- 🎥 Fetches movies from a real-time public API  
+- 🛠️ Reusable services for API integration  
+- ✅ Built using TypeScript for type safety  
+- 📱 Responsive design
+
+## 🖼️ Screenshot
+
+![Movies App Screenshot](assets/images/screenshot.png)
+
+## 🧪 Tech Stack
+
+- Angular 15+
+- TypeScript
+- HTML5 & CSS3
+- RxJS
+- Angular Router
+- Movie API (e.g., TMDB)
+
+
+## 🧰 How to Run
+
+```bash
+git clone https://github.com/your-username/movies-app.git
+cd movies-app
+npm install
+ng serve
 
 ## Development server
 
