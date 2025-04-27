@@ -29,7 +29,7 @@ An Angular-based web application that displays a list of movies fetched from a p
 ## 🧰 How to Run
 
 ```bash
-git clone https://github.com/your-username/movies-app.git
+git clone https://github.com/nourmamoun/movies-app
 cd movies-app
 npm install
 ng serve
