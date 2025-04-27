@@ -1,7 +1,6 @@
 import { TitleCasePipe, UpperCasePipe } from '@angular/common';
 import { Component, Input } from '@angular/core';
-import { AllCategoriesService } from '../service/all-categories.service';
-import { All } from '../all';
+import { All } from '../../interfaces/all';
 import { RouterLink } from '@angular/router';
 
 @Component({

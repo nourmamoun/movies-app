@@ -1,10 +1,10 @@
 import { Routes } from '@angular/router';
-import { ProductsComponent } from './products/products.component';
-import { MoviesComponent } from './movies/movies.component';
-import { TvComponent } from './tv/tv.component';
-import { PeopleComponent } from './people/people.component';
-import { NotFoundComponent } from './not-found/not-found.component';
-import { ProductDetailsComponent } from './product-details/product-details.component';
+import { ProductsComponent } from './pages/products/products.component';
+import { MoviesComponent } from './pages/movies/movies.component';
+import { TvComponent } from './pages/tv/tv.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { PeopleComponent } from './pages/people/people.component';
+import { ProductDetailsComponent } from './pages/product-details/product-details.component';
 
 export const routes: Routes = [
     {path: '',redirectTo: 'all', pathMatch: 'full'},

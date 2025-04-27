@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { AllCategoriesService } from '../service/all-categories.service';
+import { AllCategoriesService } from '../../service/all-categories.service';
 import { ProductItemComponent } from "../product-item/product-item.component";
-import { All } from '../all';
+import { All } from '../../interfaces/all';
 
 @Component({
   selector: 'app-tv',

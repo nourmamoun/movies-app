@@ -1,6 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Person } from '../person';
-import { TitleCasePipe } from '@angular/common';
+import { Person } from '../../interfaces/person';
 
 @Component({
   selector: 'app-people-item',

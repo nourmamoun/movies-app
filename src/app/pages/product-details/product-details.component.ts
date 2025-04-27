@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { All } from '../all';
-import { AllCategoriesService } from '../service/all-categories.service';
+import { All } from '../../interfaces/all';
+import { AllCategoriesService } from '../../service/all-categories.service';
 import { ActivatedRoute } from '@angular/router';
-import { get } from 'http';
 
 @Component({
   selector: 'app-product-details',

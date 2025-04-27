@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Person } from '../person';
-import { AllCategoriesService } from '../service/all-categories.service';
+import { Person } from '../../interfaces/person';
+import { AllCategoriesService } from '../../service/all-categories.service';
 import { PeopleItemComponent } from "../people-item/people-item.component";
 
 @Component({
