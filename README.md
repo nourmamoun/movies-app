@@ -4,7 +4,7 @@ An Angular-based web application that displays a list of movies fetched from a p
 
 ## 🚀 Features
 
-- 🔁 Routing between movie list 
+- 🔁 Routing between movie list and description
 - 🎥 Fetches movies from a real-time public API  
 - 🛠️ Reusable services for API integration  
 - ✅ Built using TypeScript for type safety  
@@ -12,6 +12,9 @@ An Angular-based web application that displays a list of movies fetched from a p
 
 ## 🖼️ Screenshot
 ![home](https://github.com/user-attachments/assets/de6134f0-8447-4e04-839c-bc3dcc046458)
+
+## 🍿 Movie Description
+![description](https://github.com/user-attachments/assets/da4d8107-b576-45d5-be2f-c19a41ee1538)
 
 ## 🧪 Tech Stack
 
